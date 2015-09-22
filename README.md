@@ -167,7 +167,6 @@ Instance created and launched successfully!
 ``` 
 
 After this is done, you can check on the AWS console to verify that the volume and instance has been created.
-(Note: for CoreOS servers, the service discovery URL is applicable for 10 servers in the cluster)
 
 [boto config]: http://boto.readthedocs.org/en/latest/boto_config_tut.html
 [getting started]: http://boto.readthedocs.org/en/latest/getting_started.html
