@@ -125,7 +125,6 @@ def create_instance(connection):
 def get_user_data():
 
 	cloud_config ="""#cloud-config
-
 coreos:
   etcd:
     discovery: https://discovery.etcd.io/<write_your_own_id>
