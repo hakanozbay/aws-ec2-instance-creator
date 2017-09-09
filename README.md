@@ -1,4 +1,4 @@
-# aws-ec2-instance-creator
+# AWS EC2 instance creator
 A Python 3 command line script with arguments to create AWS EC2 Instances in your account
 
 # Introduction
