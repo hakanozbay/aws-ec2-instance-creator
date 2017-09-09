@@ -67,7 +67,7 @@ def launch_instance():
 	connection = create_connection_to_region()
 	reservation = create_instance(connection)
 	instance = get_instance_from_reservation(reservation)
-	address = create_elastic_ip_address(connection, instance.id)
+	address = create_elastic_ip_address(connection)
 	assign_elastic_ip_address(connection, instance.id, address)
 
 	if NAME is not None:
@@ -167,7 +167,7 @@ def get_instance_from_reservation(reservation):
 
 	return instance
 
-def create_elastic_ip_address(connection,instance_id):
+def create_elastic_ip_address(connection):
 
 	print ("====================")
 	print ("Creating an Elastic IP...")
